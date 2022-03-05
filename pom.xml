@@ -84,7 +84,8 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
+		</dependencies>
+		<!--   <dependency>
 			<groupId>com.paytm</groupId>
 			<artifactId>miniapp-sdk-client</artifactId>
 			<version>1.0.2-SNAPSHOT</version>
@@ -92,8 +93,8 @@
 		<dependency>
 			<groupId>com.paytm</groupId>
 			<artifactId>paytm-checksum</artifactId>
-			<version>1.2.0</version>
-		</dependency>
+			<version>1.2.0</version> 
+		</dependency> 
 	</dependencies>
 	<repositories>
 		<repository>
@@ -109,7 +110,7 @@
 			<id>my-repo1</id>
 			<url> http://artifactorypg.paytm.in/artifactory/libs-release </url>
 		</repository>
-	</repositories>
+	</repositories> -->
 	<build>
 		<plugins>
 			<plugin>
